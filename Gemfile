@@ -35,6 +35,21 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.2'
+
+# A generalized Rack framework for multiple-provider authentication.
+gem 'omniauth', '~> 1.6', '>= 1.6.1'
+
+# Facebook OAuth2 Strategy for OmniAuth
+gem 'omniauth-facebook', '~> 4.0'
+
+# A Google OAuth2 strategy for OmniAuth 1.x
+gem 'omniauth-google-oauth2', '~> 0.4.1'
+
+# bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
